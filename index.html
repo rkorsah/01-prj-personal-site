@@ -2,10 +2,233 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>My Personal Site</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Richmond Korsah personal portfolio website">
+  <title>Richmond Korsah | Personal Portfolio</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <!-- Add your HTML content here -->
+  <header>
+    <nav class="navbar">
+      <a class="logo" href="#home">RK</a>
+      <ul class="nav-links">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#reflection">Reflection</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section id="home" class="hero">
+      <div class="hero-content">
+        <p class="eyebrow">WELCOME TO MY PORTFOLIO</p>
+        <h1>Hi, I'm <span>Richmond Korsah</span></h1>
+        <p class="hero-text">
+          I am a Healthcare Administration student with a growing interest in
+          technology, web development, artificial intelligence, leadership,
+          and helping others.
+        </p>
+        <div class="hero-buttons">
+          <a class="btn primary-btn" href="#projects">View My Projects</a>
+          <a class="btn secondary-btn" href="#contact">Contact Me</a>
+        </div>
+      </div>
+
+      <div class="hero-card">
+        <div class="initials">RK</div>
+        <h2>Richmond Korsah</h2>
+        <p>Student • Lifelong Learner • Aspiring Digital Professional</p>
+        <div class="social-icons">
+          <a href="https://github.com/rkorsah" target="_blank" aria-label="GitHub">
+            <i class="fa-brands fa-github"></i>
+          </a>
+          <a href="https://www.linkedin.com/" target="_blank" aria-label="LinkedIn">
+            <i class="fa-brands fa-linkedin"></i>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="section">
+      <div class="section-heading">
+        <p>ABOUT ME</p>
+        <h2>A little about who I am</h2>
+      </div>
+
+      <div class="about-grid">
+        <div class="about-text">
+          <p>
+            I enjoy learning new skills and challenging myself to grow both
+            personally and professionally. I am especially interested in
+            healthcare administration, technology, leadership, web development,
+            and using digital tools to solve real-world problems.
+          </p>
+          <p>
+            Through the Global Career Accelerator, I am learning how HTML, CSS,
+            GitHub, accessibility, responsive design, and AI tools can work
+            together to create useful digital experiences.
+          </p>
+          <p>
+            My goal is to continue growing, build meaningful projects, and use
+            what I learn to make a positive difference in my career and community.
+          </p>
+        </div>
+
+        <div class="about-highlight">
+          <i class="fa-solid fa-lightbulb"></i>
+          <h3>My Mindset</h3>
+          <p>
+            I believe progress comes from being willing to learn, make mistakes,
+            ask questions, and keep improving.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section id="skills" class="section soft-section">
+      <div class="section-heading">
+        <p>MY SKILLS</p>
+        <h2>What I am developing</h2>
+      </div>
+
+      <div class="card-grid">
+        <article class="skill-card">
+          <i class="fa-brands fa-html5"></i>
+          <h3>HTML</h3>
+          <p>Creating the structure and content of webpages.</p>
+        </article>
+        <article class="skill-card">
+          <i class="fa-brands fa-css3-alt"></i>
+          <h3>CSS</h3>
+          <p>Styling webpages with colors, spacing, fonts, and layouts.</p>
+        </article>
+        <article class="skill-card">
+          <i class="fa-brands fa-github"></i>
+          <h3>GitHub</h3>
+          <p>Saving, managing, and publishing web development projects.</p>
+        </article>
+        <article class="skill-card">
+          <i class="fa-solid fa-robot"></i>
+          <h3>AI Tools</h3>
+          <p>Using AI to brainstorm, learn, troubleshoot, and improve ideas.</p>
+        </article>
+        <article class="skill-card">
+          <i class="fa-solid fa-people-group"></i>
+          <h3>Teamwork</h3>
+          <p>Listening, collaborating, and learning from different perspectives.</p>
+        </article>
+        <article class="skill-card">
+          <i class="fa-solid fa-comments"></i>
+          <h3>Communication</h3>
+          <p>Sharing ideas clearly and working respectfully with others.</p>
+        </article>
+      </div>
+    </section>
+
+    <section id="projects" class="section">
+      <div class="section-heading">
+        <p>MY PROJECTS</p>
+        <h2>Projects I have worked on</h2>
+      </div>
+
+      <div class="project-grid">
+        <article class="project-card">
+          <div class="project-icon"><i class="fa-solid fa-laptop-code"></i></div>
+          <h3>Personal Portfolio Website</h3>
+          <p>
+            A single-page portfolio website built with HTML and CSS to showcase
+            my background, skills, projects, and professional growth.
+          </p>
+          <div class="tags">
+            <span>HTML</span><span>CSS</span><span>GitHub</span>
+          </div>
+        </article>
+
+        <article class="project-card">
+          <div class="project-icon"><i class="fa-solid fa-leaf"></i></div>
+          <h3>Intel Sustainability Journey</h3>
+          <p>
+            A webpage project focused on sustainability while practicing
+            responsive design, accessibility, layout, and website styling.
+          </p>
+          <div class="tags">
+            <span>Responsive Design</span><span>Accessibility</span>
+          </div>
+        </article>
+
+        <article class="project-card">
+          <div class="project-icon"><i class="fa-solid fa-hand-holding-heart"></i></div>
+          <h3>Support & Encouragement Website</h3>
+          <p>
+            A future website idea designed to provide a supportive space where
+            people who feel discouraged, overwhelmed, or frustrated can seek
+            encouragement, motivation, and positive support.
+          </p>
+          <div class="tags">
+            <span>Future Project</span><span>Community Support</span>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section id="reflection" class="section soft-section">
+      <div class="section-heading">
+        <p>REFLECTION</p>
+        <h2>What I learned while building with AI</h2>
+      </div>
+
+      <div class="reflection-box">
+        <p>
+          Building a website with AI was a new and interesting experience for me.
+          AI helped me brainstorm ideas, understand HTML and CSS, organize my page,
+          and troubleshoot problems when something was not working the way I expected.
+        </p>
+        <p>
+          I also learned that AI is most useful when I stay involved in the process.
+          I still had to test the website, review the code, make changes, and decide
+          what looked right. This experience made me more confident using HTML, CSS,
+          GitHub, and AI together while also teaching me that mistakes and
+          troubleshooting are normal parts of learning web development.
+        </p>
+      </div>
+    </section>
+
+    <section id="contact" class="section contact-section">
+      <div class="contact-content">
+        <div>
+          <p class="contact-label">CONTACT</p>
+          <h2>Let's connect</h2>
+          <p>
+            I am always open to learning, networking, and connecting with people
+            who share similar professional interests.
+          </p>
+        </div>
+
+        <div class="contact-links">
+          <a href="mailto:your-email@example.com">
+            <i class="fa-solid fa-envelope"></i>
+            your-email@example.com
+          </a>
+          <a href="https://github.com/rkorsah" target="_blank">
+            <i class="fa-brands fa-github"></i>
+            GitHub
+          </a>
+          <a href="https://www.linkedin.com/" target="_blank">
+            <i class="fa-brands fa-linkedin"></i>
+            LinkedIn
+          </a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2026 Richmond Korsah | Personal Portfolio</p>
+  </footer>
 </body>
 </html>
